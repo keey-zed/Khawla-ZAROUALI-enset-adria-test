@@ -54,6 +54,9 @@ The project is organized into the following microservices:
 - `config-service`: Handles configuration with Spring Cloud Config or Consul Config (Choose one).
 
 
+Below is a visual representation of the application's architecture using different microservices:
+
+![img.png](img.png)
 
 ## Getting Started
 
