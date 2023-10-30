@@ -58,60 +58,6 @@ Below is a visual representation of the application's architecture using differe
 
 ![img.png](img.png)
 
-+-----------------------+             +-----------------------+
-|    Microservice       |             |    Microservice       |
-|   Gestion des         |             |   Gestion des         |
-|      Wallets          |             |     Transferts        |
-+-----------------------+             +-----------------------+
-| - clients: List<Client> |          | - transfers: List<Transfer> |
-+-----------------------+             +-----------------------+
-                              |
-+-----------------------+     |
-|       Client          |<----+
-+-----------------------+
-| - id: int            |
-| - name: String       |
-| - email: String      |
-| + createWallet(): Wallet |
-| + updateWallet(Wallet): Wallet |
-| + deleteWallet(UUID): void |
-| + getWallets(): List<Wallet> |
-+-----------------------+
-                |
-                |
-                |
-                |
-+-----------------------+
-|       Wallet          |
-+-----------------------+
-| - id: UUID            |
-| - balance: double     |
-| - creationDate: Date  |
-| - currency: String    |
-+-----------------------+
-| + getTransfers(): List<Transfer> |
-+-----------------------+
-     |
-     |
-     |
-     |
-+-----------------------+
-|      Transfer         |
-+-----------------------+
-| - id: int             |
-| - date: Date          |
-| - sourceWallet: Wallet |
-| - destinationWallet: Wallet |
-| - amount: double    |
-| - status: TransferStatus |
-+-----------------------+
-
-Enum TransferStatus:
-- PENDING
-- VALIDATED
-- REJECTED
-
-
 
 ## Documentation
 
