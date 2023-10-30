@@ -58,36 +58,15 @@ Below is a visual representation of the application's architecture using differe
 
 ![img.png](img.png)
 
-## Getting Started
-
-To run the project locally, follow these steps:
-
-
 
 ## Documentation
 
-You can access the documentation of the RESTful APIs using OpenAPI (Swagger) at the following URL: [Insert Swagger URL here]
-
-
 
 ## Frontend
-
-To run the frontend (Angular or React), use the following commands:
-
-
 
 
 ## Security
 
 
-
 ## Screenshots
-
-#### Screenshot 1: 
-![Screenshot 1](screenshot1.png)
-
-#### Screenshot 2:
-![Screenshot 2](screenshot2.png)
-
-
 
